@@ -1,7 +1,5 @@
 `react-native-AIO` provides support to React Native on iOS, Android, macOS, Windows, and a compatibility layer for the web.
 
-[Check out the Example app](https://github.com/react-native-svg/react-native-svg/tree/main/Example)
-
 - [Features](#features)
 - [Installation](#installation)
 
