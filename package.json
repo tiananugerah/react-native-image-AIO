@@ -1,7 +1,7 @@
 {
   "name": "react-native-image-aio",
   "version": "1.0.0",
-  "description": "test",
+  "description": "react native image aio support for all image import in react",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -32,24 +32,21 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "lint-fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
     "prepack": "bob build",
-    "release": "release-it",
-    "example": "yarn --cwd example",
-    "setup": "yarn example && yarn install && yarn example pods",
-    "start": "yarn example start --reset-cache",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build"
+    "release": "release-it"
   },
   "keywords": [
+    "react-native-image",
     "react-native",
-    "ios",
-    "android"
+    "react",
+    "react-native-svg"
   ],
-  "repository": "https://gitlab.com/tiananugerah14/sdk_products_catalogs.git",
-  "author": "ACOMM",
+  "repository": "https://github.com/tiananugerah/react-native-image-AIO.git",
+  "author": "TIAN && SUTAN",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/tiananugerah14/sdk_products_catalogs/-/issues"
+    "url": "https://github.com/tiananugerah/react-native-image-AIO/issues"
   },
-  "homepage": "https://gitlab.com/tiananugerah14/sdk_products_catalogs",
+  "homepage": "https://github.com/tiananugerah/react-native-image-AIO",
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
     "@react-native-community/eslint-config": "^3.0.2",
@@ -73,13 +70,6 @@
   },
   "resolutions": {
     "@types/react": "17.0.21"
-  },
-  "jest": {
-    "preset": "react-native",
-    "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
-      "<rootDir>/lib/"
-    ]
   },
   "release-it": {
     "git": {
