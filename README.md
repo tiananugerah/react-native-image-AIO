@@ -17,13 +17,13 @@
    from npm
 
    ```bash
-   npm install react-native-AIO
+   npm install react-native-image-aio
    ```
 
    from yarn
 
    ```bash
-   yarn add react-native-AIO
+   yarn add react-native-image-aio
    ```
 
 2. Link native code
