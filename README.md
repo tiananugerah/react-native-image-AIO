@@ -1,4 +1,4 @@
-`react-native-AIO` provides support to React Native on iOS, Android, macOS, Windows, and a compatibility layer for the web.
+`react-native-image-aio` provides support to React Native on iOS, Android, macOS, Windows, and a compatibility layer for the web.
 
 - [Features](#features)
 - [Installation](#installation)
