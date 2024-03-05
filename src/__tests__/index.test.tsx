@@ -10,8 +10,10 @@ import { it } from '@jest/globals';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
-import { ProductList } from '../components/productList/ProductList';
+import { ImageAIO } from 'src/components';
 
 it('renders correctly', () => {
-  renderer.create(<ProductList />);
+  renderer.create(
+    <ImageAIO source={''} parentLoading={false} placeholder={false} />
+  );
 });
